@@ -15,20 +15,58 @@ body {
 h1.fieldName {
   font-size: 28pt;
   position: absolute;
-  top: 20px;
-  left: 25%;
+
+  left: 10%;
 }
 h2 {
   font-size: 12pt;
   font-weight: bold;
+}
+.team {
+  position: absolute;
+  left: 1%;
+}
+
+#away {
+  top: 15%;
+}
+#home {
+  top: 20%;
 }
 div.away {
   font-size: 12pt;
   font-weight: normal;
   border: 1px solid black;
 }
+
 div.home {
   font-size: 12pt;
   font-weight: normal;
   border: 1px solid black;
+}
+.inning {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+#inn2 {
+  left: 15%;
+}
+#inn3 {
+  left: 20%;
+}
+#inn4 {
+  left: 25%;
+}
+#inn5 {
+  left: 30%;
+}
+#inn6 {
+  left: 35%;
+}
+#inn7 {
+  left: 40%;
+}
+#innR {
+  left: 45%;
 }
