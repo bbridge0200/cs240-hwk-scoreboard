@@ -6,17 +6,20 @@ body {
 }
 .scoreboard {
   background-color: rgb(50, 100, 85);
-  width: 75%;
+  width: 500px;
+  height: 150px;
   position: relative;
 }
 .controlCenter {
   background-color: black;
+  width: 50%;
 }
 h1.fieldName {
-  font-size: 28pt;
+  font-size: 18pt;
   position: absolute;
 
   left: 10%;
+  top: 0px;
 }
 h2 {
   font-size: 12pt;
@@ -27,55 +30,48 @@ h2 {
 }
 
 #away {
-  top: 20%;
+  top: 65px;
   left: 1%;
 }
 #home {
-  top: 25%;
+  top: 100px;
   left: 1%;
 }
-.away {
-  font-size: 12pt;
-  font-weight: normal;
-  border: 1px solid black;
+.scoreTable {
+  position: relative;
+  left: 60px;
+}
+.inningLabels {
+  position: absolute;
+  top: 20px;
+}
+th {
+  padding: 8px;
 }
 
-.home {
+.awayScores {
   font-size: 12pt;
   font-weight: normal;
-  border: 1px solid black;
-}
-.inning {
+
   position: absolute;
-  top: 15%;
+
+  top: 50px;
 }
-#inn1 {
-  left: 15%;
+td {
+  border: 3px solid black;
+  padding: 5px;
+  margin: 5px;
 }
-#inn2 {
-  left: 20%;
-}
-#inn3 {
-  left: 25%;
-}
-#inn4 {
-  left: 30%;
-}
-#inn5 {
-  left: 35%;
-}
-#inn6 {
-  left: 40%;
-}
-#inn7 {
-  left: 45%;
-}
-#innR {
-  left: 50%;
-}
-#awayOne {
-  width: 20px;
+.homeScores {
+  font-size: 12pt;
+  font-weight: normal;
+
   position: absolute;
-  top: 20%;
-  left: 15%;
+
+  top: 85px;
+}
+
+img {
+  position: absolute;
+  left: 380px;
 }
