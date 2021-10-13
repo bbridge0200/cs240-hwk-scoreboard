@@ -37,3 +37,14 @@ plusRunNode.addEventListener("click", function (evt) {
   let scoreToAdd = document.querySelector(str);
   scoreToAdd.innerHTML++;
 });
+
+let minusRunNode = document.querySelector("#minusButton");
+
+minusRunNode.addEventListener("click", function (evt) {
+  //subtract unless runs are already 0
+  let str = scoreBoxes[inningNodeVal - 1][whoNodeVal - 1];
+  let scoreToSub = document.querySelector(str);
+  if (scoreToSub.innerHTML > 0) {
+    scoreToSub.innerHTML--;
+  }
+});
