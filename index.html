@@ -9,8 +9,8 @@
     <h1 class ="fieldName">DAVID FIELD</h1>
     <h2 class ="team" id ="away">AWAY</hw>
     <h2 class ="team" id ="home">HOME</h2>
-  
-              <table class = scoreTable>
+    
+              <table class = scoreTable> <!--- inning table headers --->
                 <tr class="inningLabels">
                   <th id ="inn1">1</th>
                   <th id ="inn2">2</th>
@@ -21,7 +21,7 @@
                   <th id ="inn7">7</th>
                   <th id ="innR">R</th>
                 </tr>
-                ​​<tr class ="awayScores">
+                ​​<tr class ="awayScores"> <!--- first row of scores --->
                   <td id ="awayOne">0</td>
                   <td id ="awayTwo">0</td>
                   <td id ="awayThree">0</td>
@@ -32,7 +32,7 @@
                   <td id ="awayR">0</td>
                  
                 </tr>
-                <tr class ="homeScores">
+                <tr class ="homeScores"> <!--- second row of scores --->
                   <td id ="homeOne">0</td>
                   <td id ="homeTwo">0</td>
                   <td id ="homeThree">0</td>
@@ -57,13 +57,13 @@
 
       <label for="team">Who:</label>
 
-      <select name="Who" id="who">
+      <select name="Who" id="who">  <!--- drop down menu --->
       <option value=1>Away</option>
       <option value=2>Home</option>
       </select>
      
       <label for="innings">Inning:</label>
-      <select name="inning" id="inningChoice">
+      <select name="inning" id="inningChoice">  <!--- drop down menu --->
         <option value=1>1</option>
         <option value=2>2</option>
         <option value=3>3</option>
@@ -77,8 +77,8 @@
       <button id="minusButton">-</button>
       <div class ="space"></div>
       <label for="sound">Sound:</label>
-      <button id="musButton">&#9835;</button>
-      <button id="pianoButton">&#127929;</button>
+      <button id="musButton">&#9835;</button>  <!--- music note emoji--->
+      <button id="pianoButton">&#127929;</button>  <!--- piano emoji--->
       <audio id="song" src ="sounds/buildup.mp3"></audio>
     </div>
 

@@ -1,8 +1,12 @@
 /**
- * Scoreboard Homework
+ * Scoreboard Homework javascript which
+ * implements scoreboard changes, songs, and images
+ * changes in response to the buttons clicked
+ * and options selected in the control center
  * @author Bee Bridge
  */
 const scoreBoxes = [
+  //array to store the ids of the scoreboard
   ["#awayOne", "#homeOne"], //row 0 col 0 and col 1 [inning, team]
   ["#awayTwo", "#homeTwo"],
   ["#awayThree", "#homeThree"],
