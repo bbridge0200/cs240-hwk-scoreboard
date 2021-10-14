@@ -80,6 +80,7 @@ td {
 img {
   position: absolute;
   left: 380px;
+  width: 120px;
 }
 .controlCenter {
   background-color: black;
